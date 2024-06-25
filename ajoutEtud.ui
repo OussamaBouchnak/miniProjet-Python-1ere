@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>694</width>
+    <height>724</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="6" column="0">
+    <widget class="QLabel" name="label_7">
+     <property name="font">
+      <font>
+       <family>Arial,sans-serif</family>
+       <pointsize>17</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+  background-color: none;
+  border: 2px solid #00BFA5;
+  border-radius: 10px;
+  padding: 5px;
+  color: #000000;
+  font-size: 17pt;
+  font-family: Arial, sans-serif;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Téléphone</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="font">
+      <font>
+       <family>Arial,sans-serif</family>
+       <pointsize>17</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+  background-color: none;
+  border: 2px solid #00BFA5;
+  border-radius: 10px;
+  padding: 5px;
+  color: #000000;
+  font-size: 17pt;
+  font-family: Arial, sans-serif;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>nom</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="font">
+      <font>
+       <family>Arial,sans-serif</family>
+       <pointsize>17</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+  background-color: none;
+  border: 2px solid #00BFA5;
+  border-radius: 10px;
+  padding: 5px;
+  color: #000000;
+  font-size: 17pt;
+  font-family: Arial, sans-serif;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>prénom</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1">
+    <widget class="QLineEdit" name="section">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="label_5">
+     <property name="font">
+      <font>
+       <family>Arial,sans-serif</family>
+       <pointsize>17</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+  background-color: none;
+  border: 2px solid #00BFA5;
+  border-radius: 10px;
+  padding: 5px;
+  color: #000000;
+  font-size: 17pt;
+  font-family: Arial, sans-serif;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Adresse</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QLineEdit" name="mail">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="label_6">
+     <property name="font">
+      <font>
+       <family>Arial,sans-serif</family>
+       <pointsize>17</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+  background-color: none;
+  border: 2px solid #00BFA5;
+  border-radius: 10px;
+  padding: 5px;
+  color: #000000;
+  font-size: 17pt;
+  font-family: Arial, sans-serif;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Mail</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="label_9">
+     <property name="font">
+      <font>
+       <family>Arial,sans-serif</family>
+       <pointsize>17</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+  background-color: none;
+  border: 2px solid #00BFA5;
+  border-radius: 10px;
+  padding: 5px;
+  color: #000000;
+  font-size: 17pt;
+  font-family: Arial, sans-serif;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Niveau</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLineEdit" name="date">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QLineEdit" name="inscri">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLineEdit" name="adresse">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label_10">
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+  background-color: none;
+  border: 2px solid #00BFA5;
+  border-radius: 10px;
+  padding: 5px;
+  color: #000000;
+  font-size: 17pt;
+  font-family: Arial, sans-serif;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>numéro inscri</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="label_8">
+     <property name="font">
+      <font>
+       <family>Arial,sans-serif</family>
+       <pointsize>17</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+  background-color: none;
+  border: 2px solid #00BFA5;
+  border-radius: 10px;
+  padding: 5px;
+  color: #000000;
+  font-size: 17pt;
+  font-family: Arial, sans-serif;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Section</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QLineEdit" name="niv">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="font">
+      <font>
+       <family>Arial,sans-serif</family>
+       <pointsize>17</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel {
+  background-color: none;
+  border: 2px solid #00BFA5;
+  border-radius: 10px;
+  padding: 5px;
+  color: #000000;
+  font-size: 17pt;
+  font-family: Arial, sans-serif;
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Date de naissance</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLineEdit" name="prenom">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QLineEdit" name="nom">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLineEdit" name="tel">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>50</height>
+      </size>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="2" alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <family>Arial,sans-serif</family>
+       <pointsize>17</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QLabel {
+  background-color: none;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 5px;
+  color: red;
+  font-size: 17pt;
+  font-family: Arial, sans-serif;
+  
+
+}</string>
+     </property>
+     <property name="text">
+      <string>ajouter un nouvel étudiant</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0" colspan="2">
+    <widget class="QFrame" name="frame">
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="0">
+       <widget class="QPushButton" name="ajout">
+        <property name="minimumSize">
+         <size>
+          <width>20</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>200000</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+        </property>
+        <property name="text">
+         <string>Ajouter</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="annuler">
+        <property name="minimumSize">
+         <size>
+          <width>20</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+        </property>
+        <property name="text">
+         <string>Anunuler</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

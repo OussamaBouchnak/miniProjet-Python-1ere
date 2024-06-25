@@ -1,0 +1,1473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1313</width>
+    <height>556</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="layoutDirection">
+   <enum>Qt::LeftToRight</enum>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+    background-color: #C9E8E4; /* Light gray background color */
+
+
+
+
+
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QFrame" name="frame_2">
+      <property name="layoutDirection">
+       <enum>Qt::LeftToRight</enum>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <property name="sizeConstraint">
+        <enum>QLayout::SetNoConstraint</enum>
+       </property>
+       <item>
+        <widget class="QFrame" name="frame">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_7">
+          <item row="0" column="0">
+           <widget class="QPushButton" name="acceuil">
+            <property name="minimumSize">
+             <size>
+              <width>330</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>300</width>
+              <height>300</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Arial,sans-serif</family>
+              <pointsize>-1</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */</string>
+            </property>
+            <property name="text">
+             <string>ACCEUIL</string>
+            </property>
+            <property name="icon">
+             <iconset resource="icons/icons.qrc">
+              <normaloff>:/acceuil.png</normaloff>:/acceuil.png</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>70</width>
+              <height>70</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="gest_livre">
+            <property name="minimumSize">
+             <size>
+              <width>330</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>300</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Arial,sans-serif</family>
+              <pointsize>-1</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */</string>
+            </property>
+            <property name="text">
+             <string>Gestion des étudiants</string>
+            </property>
+            <property name="icon">
+             <iconset resource="icons/icons.qrc">
+              <normaloff>:/student.jpg</normaloff>:/student.jpg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>80</width>
+              <height>80</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="enreg_recup">
+            <property name="minimumSize">
+             <size>
+              <width>330</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>300</width>
+              <height>300</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>Arial,sans-serif</family>
+              <pointsize>-1</pointsize>
+              <weight>75</weight>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">
+background-color: rgb(255, 255, 255);
+font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */</string>
+            </property>
+            <property name="text">
+             <string>Gestion des livres</string>
+            </property>
+            <property name="icon">
+             <iconset resource="icons/icons.qrc">
+              <normaloff>:/book.jpg</normaloff>:/book.jpg</iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>70</width>
+              <height>70</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QPushButton" name="gest_emp">
+            <property name="minimumSize">
+             <size>
+              <width>330</width>
+              <height>120</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);
+font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */</string>
+            </property>
+            <property name="text">
+             <string>Gestion des emruntes</string>
+            </property>
+            <property name="icon">
+             <iconset>
+              <normalon>:/emp.png</normalon>
+             </iconset>
+            </property>
+            <property name="iconSize">
+             <size>
+              <width>70</width>
+              <height>70</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QTabWidget" name="tabWidget">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>70</height>
+          </size>
+         </property>
+         <property name="font">
+          <font>
+           <pointsize>11</pointsize>
+          </font>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LeftToRight</enum>
+         </property>
+         <property name="currentIndex">
+          <number>2</number>
+         </property>
+         <widget class="QWidget" name="tab_3">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <attribute name="title">
+           <string>ACCEUIL</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_3">
+           <property name="leftMargin">
+            <number>0</number>
+           </property>
+           <property name="topMargin">
+            <number>0</number>
+           </property>
+           <property name="rightMargin">
+            <number>0</number>
+           </property>
+           <property name="bottomMargin">
+            <number>0</number>
+           </property>
+           <item row="0" column="1" colspan="3">
+            <widget class="QPushButton" name="pushButton_5">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="font">
+              <font>
+               <family>Arial,sans-serif</family>
+               <pointsize>30</pointsize>
+               <weight>75</weight>
+               <bold>true</bold>
+              </font>
+             </property>
+             <property name="focusPolicy">
+              <enum>Qt::StrongFocus</enum>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-image: url(:/C:/miniProjet/icons/bib.jpg);
+background-color:transparent;
+background-image: url(:/back.jpg);
+color:#000000
+;</string>
+             </property>
+             <property name="text">
+              <string>Bienvenu à l'application de gestion
+de la Bibliothéque de l'ISIMM</string>
+             </property>
+             <property name="icon">
+              <iconset resource="icons/icons.qrc">
+               <normaloff>:/isimm.png</normaloff>:/isimm.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>150</width>
+               <height>150</height>
+              </size>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QWidget" name="widget" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_4">
+              <item row="1" column="0">
+               <widget class="QPushButton" name="entrer">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+                </property>
+                <property name="text">
+                 <string>Entrer</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QPushButton" name="quitter">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+                </property>
+                <property name="text">
+                 <string>quitter</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QWidget" name="widget_2" native="true">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <layout class="QGridLayout" name="gridLayout_6">
+              <item row="1" column="0">
+               <widget class="QLabel" name="label_2">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>200</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Arial,sans-serif</family>
+                  <pointsize>17</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QLabel {
+  background-color: none;
+  border: 2px solid #00BFA5;
+  border-radius: 10px;
+  padding: 5px;
+  color: #000000;
+  font-size: 17pt;
+  font-family: Arial, sans-serif;
+}
+</string>
+                </property>
+                <property name="text">
+                 <string>mot de passe</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="1">
+               <widget class="QLineEdit" name="user">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>17</pointsize>
+                 </font>
+                </property>
+                <property name="toolTip">
+                 <string/>
+                </property>
+                <property name="statusTip">
+                 <string/>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);
+color: #000000
+;</string>
+                </property>
+                <property name="inputMask">
+                 <string/>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="placeholderText">
+                 <string>écrire votre nom ici</string>
+                </property>
+               </widget>
+              </item>
+              <item row="0" column="0">
+               <widget class="QLabel" name="label">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>200</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <family>Arial,sans-serif</family>
+                  <pointsize>17</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">QLabel {
+  background-color: none;
+  border: 2px solid #00BFA5;
+  border-radius: 10px;
+  padding: 5px;
+  color: #000000;
+  font-size: 17pt;
+  font-family: Arial, sans-serif;
+}
+</string>
+                </property>
+                <property name="text">
+                 <string>nom d'utilisateur</string>
+                </property>
+               </widget>
+              </item>
+              <item row="1" column="1">
+               <widget class="QLineEdit" name="mdp">
+                <property name="minimumSize">
+                 <size>
+                  <width>0</width>
+                  <height>50</height>
+                 </size>
+                </property>
+                <property name="font">
+                 <font>
+                  <pointsize>17</pointsize>
+                 </font>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">background-color: rgb(255, 255, 255);
+color : black;</string>
+                </property>
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="echoMode">
+                 <enum>QLineEdit::Password</enum>
+                </property>
+                <property name="placeholderText">
+                 <string>********</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="tab_5">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <attribute name="title">
+           <string>Gestion des étudiants</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="7" column="1">
+            <widget class="QPushButton" name="supp_niv">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>suppression des étudiants d'un niveau donné</string>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="1" colspan="2">
+            <widget class="QPushButton" name="aff_etud">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>afficher dictionnaire étudiants</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="1">
+            <widget class="QPushButton" name="supp_sec_niv">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>suppression des étudiants d'une section et d'un niveau donnés</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="2">
+            <widget class="QPushButton" name="rech_num_insc">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>Recherche par numéro inscription</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QPushButton" name="supp_etud">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>suppression étudiant donné</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QPushButton" name="ajouter_etud">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>Ajouter étudiant</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="2">
+            <widget class="QPushButton" name="rech_sec">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}
+</string>
+             </property>
+             <property name="text">
+              <string>Recherche par section</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QPushButton" name="modif_tel">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>modifier le numéro de téléphone d'un étudiant </string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="2">
+            <widget class="QPushButton" name="rech_niv">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>Recherche par niveau</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="1">
+            <widget class="QPushButton" name="supp_sec">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>suppression des étudiants d'une section donnée</string>
+             </property>
+            </widget>
+           </item>
+           <item row="8" column="2">
+            <widget class="QPushButton" name="rech_sec_niv">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>Recherche par section et niveau</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QPushButton" name="modif_adresse">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>modifier l'adresse  d'un étudiant </string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QPushButton" name="modif_mail">
+             <property name="minimumSize">
+              <size>
+               <width>100</width>
+               <height>50</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}
+</string>
+             </property>
+             <property name="text">
+              <string>modifier l'adresse mail  d'un étudiant </string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="tab_6">
+          <property name="enabled">
+           <bool>true</bool>
+          </property>
+          <attribute name="title">
+           <string>Gestion des livres</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_5">
+           <item row="0" column="1">
+            <widget class="QPushButton" name="ajout_livre">
+             <property name="enabled">
+              <bool>true</bool>
+             </property>
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>Ajouter un livre</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="2">
+            <widget class="QPushButton" name="rech_liv">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>Recherche et Affichage</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="2">
+            <widget class="QPushButton" name="rech_2date_ret">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>Recherche livres retournés entre 2 dates données</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QPushButton" name="rech_date_ret">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>Recherche livres retournés à une date donnée</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QPushButton" name="rech_date_emp">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>Recherche livres empruntés à une date donnée</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QPushButton" name="rech_2date_emp">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>Recherche livres empruntés entre 2 dates données</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="tab">
+          <attribute name="title">
+           <string>Gestion des emruntes</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="2" column="0">
+            <widget class="QPushButton" name="supp_emp">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>Suppression d'un emprunt</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QPushButton" name="modif_date_emp">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>modifier la date de l'emprunt</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="0">
+            <widget class="QPushButton" name="modif_date_ret">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>modifier la date de retour</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0" colspan="2">
+            <widget class="QPushButton" name="aff_emp">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>Contenu du dictionnaire emprunts</string>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QPushButton" name="ajout_emp">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>Ajouter un nouvel emprunt</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <widget class="QPushButton" name="rech_liv_etud">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>Recherche emprunts par livre / étudiant</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QPushButton" name="retour_emp">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>70</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+             </property>
+             <property name="text">
+              <string>Retour d'un emprunt</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icons/icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>

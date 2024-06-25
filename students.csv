@@ -1,0 +1,45 @@
+Numero_inscription,Nom,Prenom,Date,Niveau,Section,Mail,Telephone,Adresse
+10000000,bouchnak,oussama,2003-06-02,1,CPI,ousama@gmail.com,25679852,mahdia
+10000569,amine,bouchnak,2003-01-01,1,cpi,bouchnak@gmail.com,22809119,mahdia
+10000001,Jemai,Haythem,2002-11-15,1,CPI,haythem@gmail.com,25698741,Tunis
+10000002,Gharbi,Amira,2003-08-20,1,CPI,amira@gmail.com,25874196,Bizerte
+10000003,Mradi,Youssef,2002-07-05,1,CPI,youssef@gmail.com,25896314,Sousse
+10000004,Khalil,Ines,2002-10-12,1,CPI,ines@gmail.com,25413698,Kairouan
+10000005,Ben Salah,Hichem,2003-03-18,1,CPI,hichem@gmail.com,25896321,Gabes
+10000006,Hajji,Sabrine,2002-09-27,1,CPI,sabrine@gmail.com,25412369,Tunis
+10000007,Kadri,Amine,2003-05-10,1,CPI,amine@gmail.com,25698563,Sfax
+10000008,Rebai,Yosra,2002-12-07,1,CPI,yosra@gmail.com,25413256,Ben Arous
+10000009,Ben Ammar,Chaima,2003-07-23,2,CPI,chaima@gmail.com,25874123,Tunis
+10000010,Karoui,Samir,2002-06-09,2,CPI,samir@gmail.com,25413987,Sousse
+10000011,Nefzi,Mariem,2003-01-16,2,CPI,mariem@gmail.com,25896325,Monastir
+10000012,Kamoun,Walid,2002-04-28,2,CPI,walid@gmail.com,25412365,Tunis
+10000013,Ben Hassen,Imen,2003-09-04,2,CPI,imen@gmail.com,25698542,Sfax
+10000014,Ben Ali,Hamza,2002-10-21,2,CPI,hamza@gmail.com,25413965,Bizerte
+10000015,Khalifa,Sarra,2003-04-08,2,CPI,sarra@gmail.com,25874196,Tunis
+10000016,Ben Mahmoud,Houssem,2002-08-13,1,CPI,houssem@gmail.com,25896321,Mahdia
+10000017,Kallel,Sana,2003-05-30,2,CPI,sana@gmail.com,25413256,Tunis
+10000018,Saadi,Nour,2002-12-15,2,CPI,nour@gmail.com,25698563,Sfax
+10000019,Masmoudi,Hanen,2003-07-02,1,CPI,hanen@gmail.com,25413698,Tunis
+10000020,Jlassi,Mohamed,2002-06-16,1,CPI,mohamed@gmail.com,25874123,Tunis
+10000021,Gara,Asma,2003-01-23,2,CPI,asma@gmail.com,25896325,Gabes
+10000022,Trabelsi,Mohamed,2002-05-03,2,CPI,mohamed@gmail.com,25412369,Bizete
+10000023,Gharbi,Amira,2003-08-20,1,TIC Licence,amira@gmail.com,25874196,Bizerte
+10000024,Mradi,Youssef,2002-07-05,1,TIC Licence,youssef@gmail.com,25896314,Sousse
+10000025,Khalil,Ines,2002-10-12,1,TIC Licence,ines@gmail.com,25413698,Kairouan
+10000026,Ben Salah,Hichem,2003-03-18,1,TIC Licence,hichem@gmail.com,25896321,Gabes
+10000027,Hajji,Sabrine,2002-09-27,1,TIC Licence,sabrine@gmail.com,25412369,Tunis
+10000028,Kadri,Amine,2003-05-10,1,TIC Licence,amine@gmail.com,25698563,Sfax
+10000029,Rebai,Yosra,2002-12-07,1,TIC Licence,yosra@gmail.com,25413256,Ben Arous
+10000030,Ben Ammar,Chaima,2003-07-23,1,TIC Licence,chaima@gmail.com,25874123,Tunis
+10000031,Karoui,Samir,2002-06-09,3,TIC Licence,samir@gmail.com,25413987,Sousse
+10000032,Nefzi,Mariem,2003-01-16,2,TIC Licence,mariem@gmail.com,25896325,Monastir
+10000033,Kamoun,Walid,2002-04-28,2,TIC Licence,walid@gmail.com,25412365,Tunis
+10000034,Ben Hassen,Imen,2003-09-04,2,TIC Licence,imen@gmail.com,25698542,Sfax
+10000035,Ben Ali,Hamza,2002-10-21,2,TIC Licence,hamza@gmail.com,25413965,Bizerte
+10000036,Khalifa,Sarra,2003-04-08,1,TIC Licence,sarra@gmail.com,25874196,Tunis
+10000037,Ben Mahmoud,Houssem,2002-08-13,1,TIC Licence,houssem@gmail.com,25896321,Mahdia
+10000038,Kallel,Sana,2003-05-30,1,TIC Licence,sana@gmail.com,25413256,Tunis
+10000039,Saadi,Nour,2002-12-15,1,TIC Licence,nour@gmail.com,25698563,Sfax
+10000040,Masmoudi,Hanen,2003-07-02,3,TIC Licence,hanen@gmail.com,25413698,Tunis
+10000041,Jlassi,Mohamed,2002-06-16,3,TIC Licence,mohamed@gmail.com,25874123,Tunis
+10000042,Gara,Asma,2003-01-23,3,TIC Licence,asma@gmail.com,25896325,Gabes

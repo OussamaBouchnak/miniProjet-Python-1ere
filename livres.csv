@@ -1,0 +1,35 @@
+reference,titre,auteur,annee,nombre_exemplaires
+1,math,gauss,2001,101
+2,physique,maxwell,2001,100
+3,un etudiant,ministre de l'education,2001,100
+4,candide,voltaire,2003,80
+5,bourguiba une vie,bourguiba,2004,80
+6,les miserables,victor hugo,2005,80
+7,anne,amber,2006,80
+8,romeo et juliette,chekspir,2007,80
+9,tunisia history,hsan hosny abd el wahhab,2008,80
+10,le petit prince,Antoine de Saint-Exupéry,2009,80
+11,queen elisabeth,winston churchull,2010,80
+12,love yourself,joseph mervy,2000,80
+13,power of your mins,joseph mervy,2001,80
+14,abc,primary teatcher,2003,10
+15,english,abir ben mahmoud,2004,10
+16,To Kill a Mockingbird,Harper Lee,2003,10
+17,1984,George Orwell,2017,10
+18,Pride and Prejudice,Jane Austen,2018,10
+19,The Great Gatsby,F. Scott Fitzgerald,2020,10
+20,The Catcher in the Rye,J.D. Salinger,2023,10
+21,Harry Potter and the Sorcerer's Stone,J.K. Rowling,2021,10
+22,The Lord of the Rings,J.R.R. Tolkien,2021,10
+23,The Hobbit,J.R.R. Tolkien,2000,10
+24,The Chronicles of Narnia,C.S. Lewis,1998,10
+25,To the Lighthouse,Virginia Woolf,1850,10
+26,Moby-Dick,Herman Melville,2003,10
+27,The Odyssey,Homer,2007,90
+28,The Diary of a Young Girl,Anne Frank,2009,90
+29,Brave New World,Aldous Huxley,2001,90
+30,Crime and Punishment,Fyodor Dostoevsky,2005,80
+31,The Grapes of Wrath,John Steinbeck,2001,10
+32,The Picture of Dorian Gray,Oscar Wilde,2004,12
+33,The Alchemist,Paulo Coelho,2009,0
+34,The Little Prince,Antoine de Saint-Exupéry,2005,200

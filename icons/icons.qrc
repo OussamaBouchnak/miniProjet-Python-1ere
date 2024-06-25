@@ -1,0 +1,12 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    	<file>book.jpg</file>
+	<file>student.jpg</file>
+	<file>import.png</file>
+	<file>bib.jpg</file>
+	<file>acceuil.png</file>
+	<file>isimm.png</file>
+	<file>emp.png</file>
+    	<file>back.jpg</file>
+</qresource>
+</RCC>

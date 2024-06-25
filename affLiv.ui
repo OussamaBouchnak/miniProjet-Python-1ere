@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>930</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QLabel {
+    background-color: none;
+    border: 2px solid #00BFA5;
+    border-radius: 10px;
+    padding: 5px;
+    color: #000000;
+    font-size: 17pt;
+    font-family: Arial, sans-serif;
+}
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #00BFA5;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+QPushButton:hover {
+    background-color: #009980;
+}
+</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="4" column="1">
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="styleSheet">
+      <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+     </property>
+     <property name="text">
+      <string>annuler</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QPushButton" name="pushButton">
+     <property name="styleSheet">
+      <string notr="true">/* Buttons */
+QPushButton {
+    font-family: &quot;Arial&quot;, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000; /* Black text color */
+    background-color: #00BFA5; /* Teal button background color */
+    border: none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    text-align: center; /* Center align button text */
+    text-transform: uppercase; /* Uppercase button text */
+}
+
+QPushButton:hover {
+    background-color: #009980; /* Darker teal button background color on hover */
+}</string>
+     </property>
+     <property name="text">
+      <string>afficher</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <widget class="QTableView" name="tableView"/>
+   </item>
+   <item row="2" column="0" colspan="2" alignment="Qt::AlignHCenter">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <family>Arial,sans-serif</family>
+       <pointsize>17</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QLabel {
+  background-color: none;
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 5px;
+  color: red;
+  font-size: 17pt;
+  font-family: Arial, sans-serif;
+  
+
+}
+</string>
+     </property>
+     <property name="text">
+      <string>Affichage du dictionnaire des Livres</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
